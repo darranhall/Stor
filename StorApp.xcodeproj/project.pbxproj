@@ -1,0 +1,537 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7EF2F8331DCE9BC90043A69A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EF2F8321DCE9BC90043A69A /* main.m */; };
+		7EF2F8361DCE9BC90043A69A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EF2F8351DCE9BC90043A69A /* AppDelegate.m */; };
+		7EF2F8391DCE9BC90043A69A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EF2F8381DCE9BC90043A69A /* ViewController.m */; };
+		7EF2F83C1DCE9BC90043A69A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7EF2F83A1DCE9BC90043A69A /* Main.storyboard */; };
+		7EF2F83E1DCE9BC90043A69A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7EF2F83D1DCE9BC90043A69A /* Assets.xcassets */; };
+		7EF2F8411DCE9BC90043A69A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7EF2F83F1DCE9BC90043A69A /* LaunchScreen.storyboard */; };
+		7EF2F84C1DCE9BC90043A69A /* StorAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EF2F84B1DCE9BC90043A69A /* StorAppTests.m */; };
+		7EF2F8571DCE9BC90043A69A /* StorAppUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EF2F8561DCE9BC90043A69A /* StorAppUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7EF2F8481DCE9BC90043A69A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7EF2F8261DCE9BC90043A69A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7EF2F82D1DCE9BC90043A69A;
+			remoteInfo = StorApp;
+		};
+		7EF2F8531DCE9BC90043A69A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7EF2F8261DCE9BC90043A69A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7EF2F82D1DCE9BC90043A69A;
+			remoteInfo = StorApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7EF2F82E1DCE9BC90043A69A /* StorApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StorApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7EF2F8321DCE9BC90043A69A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7EF2F8341DCE9BC90043A69A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		7EF2F8351DCE9BC90043A69A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		7EF2F8371DCE9BC90043A69A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		7EF2F8381DCE9BC90043A69A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		7EF2F83B1DCE9BC90043A69A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7EF2F83D1DCE9BC90043A69A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7EF2F8401DCE9BC90043A69A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7EF2F8421DCE9BC90043A69A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7EF2F8471DCE9BC90043A69A /* StorAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StorAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7EF2F84B1DCE9BC90043A69A /* StorAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StorAppTests.m; sourceTree = "<group>"; };
+		7EF2F84D1DCE9BC90043A69A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7EF2F8521DCE9BC90043A69A /* StorAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StorAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7EF2F8561DCE9BC90043A69A /* StorAppUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StorAppUITests.m; sourceTree = "<group>"; };
+		7EF2F8581DCE9BC90043A69A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7EF2F82B1DCE9BC90043A69A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7EF2F8441DCE9BC90043A69A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7EF2F84F1DCE9BC90043A69A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7EF2F8251DCE9BC90043A69A = {
+			isa = PBXGroup;
+			children = (
+				7EF2F8301DCE9BC90043A69A /* StorApp */,
+				7EF2F84A1DCE9BC90043A69A /* StorAppTests */,
+				7EF2F8551DCE9BC90043A69A /* StorAppUITests */,
+				7EF2F82F1DCE9BC90043A69A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7EF2F82F1DCE9BC90043A69A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7EF2F82E1DCE9BC90043A69A /* StorApp.app */,
+				7EF2F8471DCE9BC90043A69A /* StorAppTests.xctest */,
+				7EF2F8521DCE9BC90043A69A /* StorAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7EF2F8301DCE9BC90043A69A /* StorApp */ = {
+			isa = PBXGroup;
+			children = (
+				7EF2F8341DCE9BC90043A69A /* AppDelegate.h */,
+				7EF2F8351DCE9BC90043A69A /* AppDelegate.m */,
+				7EF2F8371DCE9BC90043A69A /* ViewController.h */,
+				7EF2F8381DCE9BC90043A69A /* ViewController.m */,
+				7EF2F83A1DCE9BC90043A69A /* Main.storyboard */,
+				7EF2F83D1DCE9BC90043A69A /* Assets.xcassets */,
+				7EF2F83F1DCE9BC90043A69A /* LaunchScreen.storyboard */,
+				7EF2F8421DCE9BC90043A69A /* Info.plist */,
+				7EF2F8311DCE9BC90043A69A /* Supporting Files */,
+			);
+			path = StorApp;
+			sourceTree = "<group>";
+		};
+		7EF2F8311DCE9BC90043A69A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7EF2F8321DCE9BC90043A69A /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7EF2F84A1DCE9BC90043A69A /* StorAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				7EF2F84B1DCE9BC90043A69A /* StorAppTests.m */,
+				7EF2F84D1DCE9BC90043A69A /* Info.plist */,
+			);
+			path = StorAppTests;
+			sourceTree = "<group>";
+		};
+		7EF2F8551DCE9BC90043A69A /* StorAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				7EF2F8561DCE9BC90043A69A /* StorAppUITests.m */,
+				7EF2F8581DCE9BC90043A69A /* Info.plist */,
+			);
+			path = StorAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7EF2F82D1DCE9BC90043A69A /* StorApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7EF2F85B1DCE9BC90043A69A /* Build configuration list for PBXNativeTarget "StorApp" */;
+			buildPhases = (
+				7EF2F82A1DCE9BC90043A69A /* Sources */,
+				7EF2F82B1DCE9BC90043A69A /* Frameworks */,
+				7EF2F82C1DCE9BC90043A69A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = StorApp;
+			productName = StorApp;
+			productReference = 7EF2F82E1DCE9BC90043A69A /* StorApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7EF2F8461DCE9BC90043A69A /* StorAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7EF2F85E1DCE9BC90043A69A /* Build configuration list for PBXNativeTarget "StorAppTests" */;
+			buildPhases = (
+				7EF2F8431DCE9BC90043A69A /* Sources */,
+				7EF2F8441DCE9BC90043A69A /* Frameworks */,
+				7EF2F8451DCE9BC90043A69A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7EF2F8491DCE9BC90043A69A /* PBXTargetDependency */,
+			);
+			name = StorAppTests;
+			productName = StorAppTests;
+			productReference = 7EF2F8471DCE9BC90043A69A /* StorAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7EF2F8511DCE9BC90043A69A /* StorAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7EF2F8611DCE9BC90043A69A /* Build configuration list for PBXNativeTarget "StorAppUITests" */;
+			buildPhases = (
+				7EF2F84E1DCE9BC90043A69A /* Sources */,
+				7EF2F84F1DCE9BC90043A69A /* Frameworks */,
+				7EF2F8501DCE9BC90043A69A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7EF2F8541DCE9BC90043A69A /* PBXTargetDependency */,
+			);
+			name = StorAppUITests;
+			productName = StorAppUITests;
+			productReference = 7EF2F8521DCE9BC90043A69A /* StorAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7EF2F8261DCE9BC90043A69A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Stor App";
+				TargetAttributes = {
+					7EF2F82D1DCE9BC90043A69A = {
+						CreatedOnToolsVersion = 8.2;
+						DevelopmentTeam = T5AJUJ49B2;
+						ProvisioningStyle = Automatic;
+					};
+					7EF2F8461DCE9BC90043A69A = {
+						CreatedOnToolsVersion = 8.2;
+						DevelopmentTeam = T5AJUJ49B2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 7EF2F82D1DCE9BC90043A69A;
+					};
+					7EF2F8511DCE9BC90043A69A = {
+						CreatedOnToolsVersion = 8.2;
+						DevelopmentTeam = T5AJUJ49B2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 7EF2F82D1DCE9BC90043A69A;
+					};
+				};
+			};
+			buildConfigurationList = 7EF2F8291DCE9BC90043A69A /* Build configuration list for PBXProject "StorApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7EF2F8251DCE9BC90043A69A;
+			productRefGroup = 7EF2F82F1DCE9BC90043A69A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7EF2F82D1DCE9BC90043A69A /* StorApp */,
+				7EF2F8461DCE9BC90043A69A /* StorAppTests */,
+				7EF2F8511DCE9BC90043A69A /* StorAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7EF2F82C1DCE9BC90043A69A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7EF2F8411DCE9BC90043A69A /* LaunchScreen.storyboard in Resources */,
+				7EF2F83E1DCE9BC90043A69A /* Assets.xcassets in Resources */,
+				7EF2F83C1DCE9BC90043A69A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7EF2F8451DCE9BC90043A69A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7EF2F8501DCE9BC90043A69A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7EF2F82A1DCE9BC90043A69A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7EF2F8391DCE9BC90043A69A /* ViewController.m in Sources */,
+				7EF2F8361DCE9BC90043A69A /* AppDelegate.m in Sources */,
+				7EF2F8331DCE9BC90043A69A /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7EF2F8431DCE9BC90043A69A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7EF2F84C1DCE9BC90043A69A /* StorAppTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7EF2F84E1DCE9BC90043A69A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7EF2F8571DCE9BC90043A69A /* StorAppUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7EF2F8491DCE9BC90043A69A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7EF2F82D1DCE9BC90043A69A /* StorApp */;
+			targetProxy = 7EF2F8481DCE9BC90043A69A /* PBXContainerItemProxy */;
+		};
+		7EF2F8541DCE9BC90043A69A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7EF2F82D1DCE9BC90043A69A /* StorApp */;
+			targetProxy = 7EF2F8531DCE9BC90043A69A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7EF2F83A1DCE9BC90043A69A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7EF2F83B1DCE9BC90043A69A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7EF2F83F1DCE9BC90043A69A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7EF2F8401DCE9BC90043A69A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7EF2F8591DCE9BC90043A69A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		7EF2F85A1DCE9BC90043A69A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7EF2F85C1DCE9BC90043A69A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = T5AJUJ49B2;
+				INFOPLIST_FILE = StorApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = us.storapp.StorApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		7EF2F85D1DCE9BC90043A69A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = T5AJUJ49B2;
+				INFOPLIST_FILE = StorApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = us.storapp.StorApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		7EF2F85F1DCE9BC90043A69A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = T5AJUJ49B2;
+				INFOPLIST_FILE = StorAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = us.storapp.StorAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/StorApp.app/StorApp";
+			};
+			name = Debug;
+		};
+		7EF2F8601DCE9BC90043A69A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = T5AJUJ49B2;
+				INFOPLIST_FILE = StorAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = us.storapp.StorAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/StorApp.app/StorApp";
+			};
+			name = Release;
+		};
+		7EF2F8621DCE9BC90043A69A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = T5AJUJ49B2;
+				INFOPLIST_FILE = StorAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = us.storapp.StorAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = StorApp;
+			};
+			name = Debug;
+		};
+		7EF2F8631DCE9BC90043A69A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = T5AJUJ49B2;
+				INFOPLIST_FILE = StorAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = us.storapp.StorAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = StorApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7EF2F8291DCE9BC90043A69A /* Build configuration list for PBXProject "StorApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7EF2F8591DCE9BC90043A69A /* Debug */,
+				7EF2F85A1DCE9BC90043A69A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7EF2F85B1DCE9BC90043A69A /* Build configuration list for PBXNativeTarget "StorApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7EF2F85C1DCE9BC90043A69A /* Debug */,
+				7EF2F85D1DCE9BC90043A69A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		7EF2F85E1DCE9BC90043A69A /* Build configuration list for PBXNativeTarget "StorAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7EF2F85F1DCE9BC90043A69A /* Debug */,
+				7EF2F8601DCE9BC90043A69A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		7EF2F8611DCE9BC90043A69A /* Build configuration list for PBXNativeTarget "StorAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7EF2F8621DCE9BC90043A69A /* Debug */,
+				7EF2F8631DCE9BC90043A69A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7EF2F8261DCE9BC90043A69A /* Project object */;
+}
