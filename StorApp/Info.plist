@@ -34,5 +34,9 @@
 		<string>UIInterfaceOrientationLandscapeLeft</string>
 		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
+	<key>NSCameraUsageDescription</key>
+	<string>Stor would like access to your camera to add a picture to your listing.</string>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>Stor would like access to your location to send information about your listing to us.</string>
 </dict>
 </plist>

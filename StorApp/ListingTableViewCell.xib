@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11760" systemVersion="16B2555" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11755"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="ListCell" rowHeight="188" id="KGk-i7-Jjw" customClass="ListingTableViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="350" height="188"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="350" height="188"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="mwt-d0-8Sm">
+                        <rect key="frame" x="8" y="8" width="334" height="172"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="DSC_0506.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="azK-0f-ZX8">
+                                <rect key="frame" x="0.0" y="0.0" width="106" height="172"/>
+                            </imageView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="zy0-9F-k2h">
+                                <rect key="frame" x="106" y="0.0" width="228" height="105"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="HTC Desire 625 Cricket Prepaid 1.5G RAM 720p Display" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="amf-6r-kVA">
+                                        <rect key="frame" x="8" y="8" width="212" height="67"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Alpharetta, GA" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eOo-Wv-wxr">
+                                        <rect key="frame" x="8" y="78" width="94.5" height="19"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="19" id="gHJ-kp-1Tc"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" cocoaTouchSystemColor="viewFlipsideBackgroundColor"/>
+                                <constraints>
+                                    <constraint firstItem="eOo-Wv-wxr" firstAttribute="top" secondItem="amf-6r-kVA" secondAttribute="bottom" constant="3" id="SIW-Xu-AvR"/>
+                                    <constraint firstItem="amf-6r-kVA" firstAttribute="leading" secondItem="zy0-9F-k2h" secondAttribute="leadingMargin" id="XT3-pL-jLK"/>
+                                    <constraint firstItem="eOo-Wv-wxr" firstAttribute="bottom" secondItem="zy0-9F-k2h" secondAttribute="bottomMargin" id="c0d-66-fRG"/>
+                                    <constraint firstItem="amf-6r-kVA" firstAttribute="leading" secondItem="eOo-Wv-wxr" secondAttribute="leading" id="fU1-Z4-rOI"/>
+                                    <constraint firstAttribute="trailing" secondItem="amf-6r-kVA" secondAttribute="trailing" constant="8" id="pW9-CP-uF2"/>
+                                    <constraint firstItem="amf-6r-kVA" firstAttribute="top" secondItem="zy0-9F-k2h" secondAttribute="topMargin" id="w3o-nO-YLg"/>
+                                </constraints>
+                            </view>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="$100" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1NW-Gu-zEV">
+                                <rect key="frame" x="114" y="113" width="105" height="26"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="26" id="Wcc-Kn-6Pm"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="26"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Condition: Good" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hd8-VI-3Xr">
+                                <rect key="frame" x="114" y="147" width="105" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="21" id="lah-vl-gdy"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.81280691964285712" green="0.81280691964285712" blue="0.81280691964285712" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="1NW-Gu-zEV" firstAttribute="leading" secondItem="hd8-VI-3Xr" secondAttribute="leading" id="6Dx-fM-Jde"/>
+                            <constraint firstItem="1NW-Gu-zEV" firstAttribute="trailing" secondItem="hd8-VI-3Xr" secondAttribute="trailing" id="6ea-Ys-l8E"/>
+                            <constraint firstItem="1NW-Gu-zEV" firstAttribute="leading" secondItem="azK-0f-ZX8" secondAttribute="trailing" constant="8" symbolic="YES" id="802-BJ-jan"/>
+                            <constraint firstItem="hd8-VI-3Xr" firstAttribute="top" secondItem="1NW-Gu-zEV" secondAttribute="bottom" constant="8" symbolic="YES" id="FC2-Ib-Psv"/>
+                            <constraint firstItem="azK-0f-ZX8" firstAttribute="top" secondItem="mwt-d0-8Sm" secondAttribute="top" id="HxD-Xr-gkN"/>
+                            <constraint firstAttribute="bottom" secondItem="hd8-VI-3Xr" secondAttribute="bottom" constant="4" id="KMM-WQ-cDo"/>
+                            <constraint firstItem="1NW-Gu-zEV" firstAttribute="top" secondItem="zy0-9F-k2h" secondAttribute="bottom" constant="8" symbolic="YES" id="NhJ-TS-H3s"/>
+                            <constraint firstItem="1NW-Gu-zEV" firstAttribute="centerX" secondItem="mwt-d0-8Sm" secondAttribute="centerX" id="T7Q-mE-vPb"/>
+                            <constraint firstAttribute="height" relation="lessThanOrEqual" constant="172" id="XJv-FW-gnT"/>
+                            <constraint firstItem="azK-0f-ZX8" firstAttribute="leading" secondItem="mwt-d0-8Sm" secondAttribute="leading" id="bCo-00-AIX"/>
+                            <constraint firstItem="azK-0f-ZX8" firstAttribute="top" secondItem="zy0-9F-k2h" secondAttribute="top" id="emA-1B-iy2"/>
+                            <constraint firstItem="zy0-9F-k2h" firstAttribute="leading" secondItem="azK-0f-ZX8" secondAttribute="trailing" id="ha0-DW-mYR"/>
+                            <constraint firstAttribute="trailing" secondItem="zy0-9F-k2h" secondAttribute="trailing" id="uM7-Y1-0qu"/>
+                            <constraint firstAttribute="bottom" secondItem="azK-0f-ZX8" secondAttribute="bottom" id="zNq-Uz-mkb"/>
+                        </constraints>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                <integer key="value" value="10"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="YES"/>
+                        </userDefinedRuntimeAttributes>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="mwt-d0-8Sm" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" id="5lF-2T-ZsO"/>
+                    <constraint firstItem="mwt-d0-8Sm" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="VkT-ht-YzT"/>
+                    <constraint firstItem="mwt-d0-8Sm" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="topMargin" id="YAX-iP-YuB"/>
+                    <constraint firstItem="mwt-d0-8Sm" firstAttribute="trailing" secondItem="H2p-sc-9uM" secondAttribute="trailingMargin" id="eRu-cD-EEY"/>
+                </constraints>
+                <userDefinedRuntimeAttributes>
+                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                        <integer key="value" value="10"/>
+                    </userDefinedRuntimeAttribute>
+                    <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="YES"/>
+                </userDefinedRuntimeAttributes>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="cityStateLabel" destination="eOo-Wv-wxr" id="KX3-y0-Pdt"/>
+                <outlet property="conditionLabel" destination="hd8-VI-3Xr" id="neL-OV-ptt"/>
+                <outlet property="listingImage" destination="azK-0f-ZX8" id="tuT-wE-Dkd"/>
+                <outlet property="listingTitle" destination="amf-6r-kVA" id="wbG-C0-M4G"/>
+                <outlet property="priceLabel" destination="1NW-Gu-zEV" id="V16-xO-u7z"/>
+            </connections>
+            <point key="canvasLocation" x="49" y="126"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="DSC_0506.jpg" width="6000" height="4000"/>
+    </resources>
+</document>
